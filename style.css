@@ -189,7 +189,38 @@ aside > ul{
     columns: 2;
 }
 
+div.form-group{
+    height: auto;
+    width: auto;
+}
 
+label{
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    margin: auto;
+}
+
+small.form-text{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    color: var(--cor3);
+    text-align: center;
+
+}
+
+button.btn-primary{
+    font-family: var(--fonte-android);
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+input.form-control{
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    margin: auto;
+}
 footer{
     color: white;
     background-color: var(--cor5);
