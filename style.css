@@ -125,7 +125,7 @@ main p{
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 1em;
+    line-height: 1.5em;
     font-size: 1em;
 }
 
@@ -158,7 +158,12 @@ main img#firefox{
     max-width: 500px;
     display: block;
     margin: auto;
+}
 
+main img#primeiraFoto{
+    max-width: 500px;
+    display: block;
+    margin: auto;
 }
 
 main img.pequena{
@@ -226,21 +231,22 @@ small.form-text{
     font-size: 1em;
     color: var(--cor3);
     text-align: center;
-
 }
 
 button.btn-primary{
     font-family: var(--fonte-android);
     height: 50px;
-    width: 100px;
+    width: 200px;
     border-radius: 20px;
-
+    margin: 20px 20px 0px 800px;
+    
 }
 
 input.form-control{
     font-family: var(--fonte-padrao);
-    font-size: 0.5em;
-    margin: auto;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 100%;
 }
 footer{
     color: white;
